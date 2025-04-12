@@ -5,7 +5,7 @@ class Bank(object):
     
     def __init__(self) -> None:
         self.accounts = {}
-        self.filename = os.path.join("/home/himanshu/LANGUAGES/Python.py/OOPs/Bank_project","bank_details.json")
+        self.filename = os.path.join("bank_details.json")
         self.load_data()
     
     def load_data(self):
